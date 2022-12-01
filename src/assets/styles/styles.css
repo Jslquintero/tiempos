@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
+body {
+  margin: 0;
+}
+body h1 {
+  color: black;
+  font: "DM Sans", sans-serif;
+  font-size: 3em !important;
+}
+body h2 {
+  color: #517ad3;
+  font: "DM Sans", sans-serif;
+  font-size: 2em !important;
+}
+body h3 {
+  color: #000000;
+  font: "DM Sans", sans-serif;
+  font-size: 1em !important;
+}
+body p {
+  color: black;
+  font: "DM Sans", sans-serif;
+  font-size: 1em !important;
+}
+body img {
+  width: 100%;
+}
+
+.bar {
+  width: 100%;
+  background: rgb(251, 251, 251);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 22%, rgb(216, 27, 96) 60%, rgb(160, 0, 55) 100%);
+  grid-template-columns: 1fr;
+}
+.bar .bar-default {
+  width: 90%;
+  height: 10vh;
+  grid-template-columns: 35% 20% 49%;
+  justify-items: baseline;
+}
+.bar .bar-default .img-logo {
+  width: 13vw;
+  height: 15vh;
+}
+.bar .bar-default .bar-items .bar-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.bar .bar-default .bar-items .bar-link:hover {
+  font-weight: 900;
+}
+.bar .bar-default .bar-icon {
+  font-size: 1.5rem;
+}
+.bar .bar-default .bar-icon a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.bar .bar-default .bar-icon a:hover {
+  font-size: 1.6rem;
+}
+
+.client {
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+.client .client-description {
+  margin-top: 3rem;
+  width: 90%;
+  height: 10vh;
+  grid-template-columns: 40% 60%;
+  justify-items: baseline;
+}
+.client .client-photo {
+  width: 25vw;
+  height: 25vh;
+}
+
+.w-90 {
+  width: 95%;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.py-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-gap-2 {
+  gap: 3rem;
+}
+
+.content-center {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-right {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: end;
+}
+
+.content-left {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  background-color: #d81b60;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  border-color: green;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: green;
+}/*# sourceMappingURL=styles.css.map */

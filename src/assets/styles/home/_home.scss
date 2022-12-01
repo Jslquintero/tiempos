@@ -1,0 +1,17 @@
+.client {
+    width: 100%;
+    grid-template-columns: 1fr;
+
+    .client-description{
+        margin-top: 3rem;
+        width: 90%;
+        height: 10vh;
+        grid-template-columns: 40% 60%;
+        justify-items: baseline;
+    }
+
+    .client-photo {
+        width: 25vw;
+        height: 25vh;
+    }
+}

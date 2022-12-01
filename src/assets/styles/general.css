@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
+body {
+  margin: 0;
+}
+body h1 {
+  color: black;
+  font: "DM Sans", sans-serif;
+  font-size: 3em !important;
+}
+body h2 {
+  color: #517ad3;
+  font: "DM Sans", sans-serif;
+  font-size: 2em !important;
+}
+body h3 {
+  color: #000000;
+  font: "DM Sans", sans-serif;
+  font-size: 1em !important;
+}
+body p {
+  color: black;
+  font: "DM Sans", sans-serif;
+  font-size: 1em !important;
+}
+body img {
+  width: 100%;
+}/*# sourceMappingURL=general.css.map */

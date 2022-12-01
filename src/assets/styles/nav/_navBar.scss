@@ -1,0 +1,39 @@
+.bar {
+    width: 100%;
+    background: rgb(251, 251, 251);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 22%, rgba(216, 27, 96, 1) 60%, rgba(160, 0, 55, 1) 100%);
+    grid-template-columns: 1fr;
+    .bar-default {
+        width: 90%;
+        height: 10vh;
+        grid-template-columns: 35% 20% 49%;
+        justify-items: baseline;
+        .img-logo {
+            width: 13vw;
+            height: 15vh;
+        }
+        .bar-items {
+            .bar-link {
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                font-size: 1.5rem;
+                padding-left: 20%;
+                padding-right: 20%;
+                &:hover {
+                    font-weight: 900;
+                }
+            }
+        }
+        .bar-icon {
+            font-size: 1.5rem;
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+
+                &:hover {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
