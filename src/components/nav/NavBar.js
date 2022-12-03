@@ -12,6 +12,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../assets/Images/logo/logo.jpg'
 
 const items = ['Inicio', 'Productos', 'Acerca'];
 const itemsLinks = items.map((item) => {
@@ -22,7 +23,7 @@ export default function NavBar() {
     return (<div className="bar grid content-center">
         <div className="bar-default grid">
             <div className="bar-logo my-auto">
-                <Link to='/'><img className="img-logo" src="https://i.postimg.cc/QxMPw1bm/logo.png" alt="logo" /></Link>
+                <Link to='/'><img className="img-logo" src={logo} alt="logo" /></Link>
             </div>
             <div className="bar-items my-auto">
                 {itemsLinks}
