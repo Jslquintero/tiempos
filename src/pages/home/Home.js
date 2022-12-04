@@ -15,8 +15,9 @@
 
 import React from "react";
 
-import NavBar from "../../components/nav/NavBar";
+import Navigation from "../../components/nav/Navegation";
 import CardApi from "../../components/card/CardApi";
+import Map from "../../components/map/Map";
 import logo from '../../assets/Images/logo/logo.jpg'
 import Hero from "../../assets/Images/hero/hero.png";
 
@@ -24,7 +25,7 @@ export default function Home() { // constante donde defino mis elmentos tarjetas
     return (<>
 
         <div>
-            <NavBar />
+            <Navigation />
             <div className="client grid mt-10">
 
                 <div className="grid grid-cols-2">
@@ -60,7 +61,7 @@ export default function Home() { // constante donde defino mis elmentos tarjetas
 
             <div className="grid grid-cols-2 mt-10 mb-10">
                 <div>
-                    <img className="mx-auto w-50 h-90" src={logo} alt="client" />
+                    <img className="mx-auto" src={logo} alt="client" />
                 </div>
                 <div className="grid content-center">
                     <h1 className="grid content-center">Contáctanos</h1>
@@ -94,6 +95,20 @@ export default function Home() { // constante donde defino mis elmentos tarjetas
 
             </div>
 
+            <div className="grid grid-cols-2 mt-10 mb-10">
+                <div className="grid content-center">
+                    <h1 className="grid content-center">Ubicanos</h1>
+                    <div className="grid content-center ml-10">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Nulla facilisi etiam dignissim diam quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi. Habitant morbi tristique senectus et netus et malesuada. Arcu dictum varius duis at consectetur lorem donec massa. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Augue interdum velit euismod in pellentesque massa placerat. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eget duis at tellus at urna condimentum mattis pellentesque. Sed libero enim sed faucibus turpis in eu mi bibendum. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Eget arcu dictum varius duis at consectetur lorem donec. Eget aliquet nibh praesent tristique. Sem integer vitae justo eget magna.
+                        </p>
+                    </div>
+                </div>
+                
+                <div className="grid mr-20 ml-20">
+                    <Map />
+                </div>
+            </div>
 
 
             {/* Footer (Componente Global) */}

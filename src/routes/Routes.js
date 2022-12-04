@@ -12,35 +12,35 @@ import {
 const routes = [
     {
         path: '/',
-        element: <Home/>
+        element: <UserLogin />
+    },
+    {
+        path: '/user-register',
+        element: <UserRegister />
+    },
+    {
+        path: '/Home',
+        element: <Home />
     },
     {
         path: '/cart',
-        element: <Cart/>
+        element: <Cart />
     },
     {
         path: '/about',
-        element: <About/>
+        element: <About />
     },
     {
         path: '/payment',
-        element: <ConfirmPayment/>
-    }, 
+        element: <ConfirmPayment />
+    },
     {
         path: '/payment-success',
-        element: <PaymentSuccess/>
-    }, 
+        element: <PaymentSuccess />
+    },
     {
         path: '/product',
-        element: <Product/>
-    }, 
-    {
-        path: '/user-login',
-        element: <UserLogin/>
-    }, 
-    {
-        path: '/user-register',
-        element: <UserRegister/>
+        element: <Product />
     }
 ];
 

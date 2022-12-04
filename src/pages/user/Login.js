@@ -11,12 +11,13 @@
  */
 
 import React from "react";
+import Navegation from "../../components/nav/Navegation";
 
 export default function Login() {
     return (<>
         <div>
             <div>
-                <p>hola</p>
+                <Navegation/>
             </div>
         </div>
     </>);

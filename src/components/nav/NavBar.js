@@ -3,29 +3,29 @@
    * @date: 11/30/2022
    * @description: Pagina de Inicio donde se muestra la informacion principal del cliente
    * @Editor: José López
-   * @dateUpdate: 
-   * @descriptionUpdate: Se cambio el logo del cliente
-   * @version: 1.0.1
-   * @param{logo, imagenHorizontalRedesSociales}props
-   * @tiempo Me tomo 4 horas tiempo en 1 dias
+   * @dateUpdate: 12/03/2022
+   * @descriptionUpdate: cambio en los links y correccion de padding en los menus
+   * @version: 1.0.2
+   * @param{route, ref }props
+   * @tiempo Me tomo 4 horas y 25 minutos  en 2 dias
  */
 
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from '../../assets/Images/logo/logo.jpg'
 
-const items = ['Inicio', 'Productos', 'Acerca'];
-const itemsLinks = items.map((item) => {
-    return <a href="#" className="bar-link">{item}</a>;
-});
 
-export default function NavBar() {
+export default function NavBar(props) {
+
+    const itemsLinks = props.param.map((item) => <Link className="bar-link pr-20 pl-20" to={item.route}>{item.ref}</Link>);
+
+
     return (<div className="bar grid content-center">
-        <div className="bar-default grid">
+        <div className="bar-default grid w-90">
             <div className="bar-logo my-auto">
                 <Link to='/'><img className="img-logo" src={logo} alt="logo" /></Link>
             </div>
-            <div className="bar-items my-auto">
+            <div className="bar-items mt-10">
                 {itemsLinks}
             </div>
             <div className="bar-icon content-right ">
