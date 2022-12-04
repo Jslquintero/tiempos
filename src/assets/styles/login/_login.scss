@@ -1,0 +1,47 @@
+@import "../variables";
+
+.login-logo {
+    width: 26vw;
+    height: 40vh;
+}
+
+.slogan {
+    font-size: 1.5rem !important;
+    font-weight: 200;
+    color: $primaryColor;
+    margin-bottom: 0rem;
+}
+
+.form {
+
+    background-color: #F1F1F1;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    .form-group {
+        margin-bottom: 1.5rem;
+
+        .input {
+            border: 1px solid $primaryColor;
+            border-radius: 20px;
+            padding: 0.5rem;
+            width: 100%;
+        }
+
+        .label {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: $primaryColor;
+        }
+        .link {
+            color: $primaryColor;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

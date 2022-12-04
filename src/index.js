@@ -7,18 +7,18 @@ import router from './routes/Router';
 
 // TODO:
 /*
-  *Crear Router
-  *Crear Pagina/Componente de Inicio /Home
+  *Crear Router - DONE
+  *Crear Pagina/Componente de Inicio /Home - DONE
   *Crear Pagina/Componente de Carrito /Cart
   *Crear Pagina/Componente de Informacion/About
   *Crear Pagina/Componente de Confirmar Pago/Payment
   *Crear Pagina/Componente de Pago Exitoso/Payment
   *Crear Pagina/Componente de Creacion de Bebida/Product
-  *Crear Pagina/Componente de Registro de Usuario/user
-  *Crear Pagina/Componente de Login/User
+  *Crear Pagina/Componente de Registro de Usuario/user - DONE
+  *Crear Pagina/Componente de Login/User - DONE
   *Crear Pagina/Componente de Listado
   *Crear Store con Redux
-  *Importar iconos de Fa Fa icons
+  *Importar iconos de Fa Fa icons - DONE
 */
 
 

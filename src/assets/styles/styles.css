@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap%22");
 body {
   margin: 0;
 }
@@ -675,6 +676,48 @@ body img {
   min-height: 5rem;
 }
 
+.login-logo {
+  width: 26vw;
+  height: 40vh;
+}
+
+.slogan {
+  font-size: 1.5rem !important;
+  font-weight: 200;
+  color: black;
+  margin-bottom: 0rem;
+}
+
+.form {
+  background-color: #F1F1F1;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.form .form-group {
+  margin-bottom: 1.5rem;
+}
+.form .form-group .input {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 100%;
+}
+.form .form-group .label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+.form .form-group .link {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.form .form-group .link:hover {
+  text-decoration: underline;
+}
+
 .content-center {
   align-items: start;
   justify-items: center;
@@ -712,7 +755,7 @@ body img {
   background-color: #d81b60;
   color: white;
   border: none;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
   border-color: green;
   padding: 1rem 2rem;
   font-size: 1.5rem;

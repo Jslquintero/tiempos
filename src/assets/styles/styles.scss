@@ -14,6 +14,8 @@
 //estilo del formulario de contacto
 @import "./form/contactForm";
 
+@import "./login/login";
+
 //Seccion contentido
 .content-center {
     align-items: start;
@@ -55,7 +57,7 @@
     background-color: #d81b60;
     color: white;
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.4rem;
     border-color: green;
 
     padding: 1rem 2rem;
