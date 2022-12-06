@@ -3,11 +3,11 @@
    * @date: 11/30/2022
    * @description: Pagina de Inicio donde se muestra la informacion principal del cliente
    * @Editor: José López
-   * @dateUpdate: 12/02/2022
-   * @descriptionUpdate: se agregaron imports de imagenes y se cambio el grid en de clientes a que fueran por columnas
+   * @dateUpdate: 12/05/2022
+   * @descriptionUpdate: cambio del select hardcoded por un select dinamico
    * @version: 1.0.2
    * @param{logo, imagenHorizontalRedesSociales}props
-   * @tiempo Me tomo 9 horas tiempo en 2 dias
+   * @tiempo Me tomo 9 horas y 5 minutos en 2 dias
  */
 
 
@@ -20,6 +20,7 @@ import CardApi from "../../components/card/CardApi";
 import Map from "../../components/map/Map";
 import logo from '../../assets/Images/logo/logo.jpg'
 import Hero from "../../assets/Images/hero/hero.png";
+import Select from "../../components/select/Select";
 
 export default function Home() { // constante donde defino mis elmentos tarjetas del componente tal  con propiedades tal
     return (<>
@@ -74,13 +75,18 @@ export default function Home() { // constante donde defino mis elmentos tarjetas
                         <di className="grid grid-cols-1 w-100">
                             <input className="input grid content-center w-100 m-1 p-1 border-radius border" type="text" placeholder="Telefono" />
                         </di>
-                        <div className="grid grid-cols-1 w-100">
-                            <select className="select grid content-center w-100 m-1 p-1 border-radius border" name="cars" id="cars">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
-                            </select>
+                        <div className="grid grid-cols-1">
+                            <Select styleType="home-select  m-1 p-1 border-radius border"
+                                selectName="lugar" selectId="selectId"
+                                opciones={[
+                                    { id: 1, nombre: "Lugar 1" },
+                                    { id: 2, nombre: "Lugar 2" },
+                                    { id: 3, nombre: "Lugar 3" },
+                                    { id: 4, nombre: "Lugar 4" },
+                                ]}
+                            />
+
+
                         </div>
 
                         <div className="grid grid-cols-1 w-100">
@@ -104,7 +110,7 @@ export default function Home() { // constante donde defino mis elmentos tarjetas
                         </p>
                     </div>
                 </div>
-                
+
                 <div className="grid mr-20 ml-20">
                     <Map />
                 </div>

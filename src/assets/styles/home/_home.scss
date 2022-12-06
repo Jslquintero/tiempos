@@ -2,7 +2,7 @@
     width: 100%;
     grid-template-columns: 1fr;
 
-    .client-description{
+    .client-description {
         font-size: 1.2rem;
     }
 
@@ -10,4 +10,11 @@
         width: 26vw;
         height: 40vh;
     }
+}
+
+.home-select {
+    font-size: 14px;
+    color: $fourthColor;
+    font-weight: 400;
+    width: 30rem;
 }
