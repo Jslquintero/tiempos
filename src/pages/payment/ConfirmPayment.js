@@ -6,7 +6,7 @@
    * @dateUpdate: 12/05/2022
    * @descriptionUpdate: Culminacion de la pagina
    * @version: 1.0.2
-   * @param{logo, imagenHorizontalRedesSociales}props
+   * @param
    * @tiempo Me tomo 6 horas en 2 dias
  */
 

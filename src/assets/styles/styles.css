@@ -774,6 +774,29 @@ body img {
   width: 26.2rem;
 }
 
+table {
+  width: 80rem;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(5, 5, 5);
+  overflow: hidden;
+  display: table;
+}
+table th {
+  background-color: #ddd;
+  border-bottom: 1px solid #ddd;
+}
+table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.action {
+  color: black;
+  padding-left: 20%;
+}
+
 .content-center {
   align-items: start;
   justify-items: center;
@@ -839,4 +862,16 @@ body img {
 
 .border {
   border: 1px solid black;
+}
+
+.delete-icon {
+  color: rgb(221, 103, 103);
+}
+
+.edit-icon {
+  color: rgb(96, 96, 223);
+}
+
+.add-icon {
+  color: rgb(103, 182, 103);
 }/*# sourceMappingURL=styles.css.map */

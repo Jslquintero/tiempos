@@ -1,0 +1,23 @@
+table {
+    width: 80rem;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgb(5, 5, 5);
+    overflow: hidden;
+    display: table;
+
+    th {
+        background-color: #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+    tr:nth-child(even) { //element:nth-child(even) nombre del elemento seguido de cuales posiciones quieres que se aplique (pares, impares, etc)
+        background-color: #ddd;
+    }
+}
+
+.action{
+    color: black;
+    padding-left: 20%;
+}

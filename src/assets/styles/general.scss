@@ -1,28 +1,28 @@
-@import 'variables';
+@import "variables";
 
-body{
+body {
     margin: 0;
-    h1{
+    h1 {
         color: $primaryColor;
         font: $principalFont;
         font-size: $fontSizeTitles !important;
     }
-    h2{
+    h2 {
         color: $secondaryColor;
         font: $principalFont;
         font-size: $fontSizeSubTitles !important;
     }
-    h3{
+    h3 {
         color: $thirdColor;
         font: $principalFont;
         font-size: $fontSizeSubHeadLine !important;
     }
-    p{
+    p {
         color: $primaryColor;
         font: $principalFont;
         font-size: $fontSizeText !important;
     }
-    img{
+    img {
         width: 100%;
     }
 }

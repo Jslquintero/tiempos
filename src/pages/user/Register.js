@@ -3,9 +3,9 @@
    * @date: 11/30/2022
    * @description: Pagina de registro de usuario
    * @Editor: José López
-   * @dateUpdate: 12/04/2022
-   * @descriptionUpdate: culminacion de la pagina
-   * @version: 1.0.1
+   * @dateUpdate: 12/06/2022
+   * @descriptionUpdate: redireccionamiento a login luego de registrarse
+   * @version: 1.0.2
    * @param
    * @tiempo Me tomo 30 minutos en 1 dias
  */
@@ -13,8 +13,12 @@
 import React from "react";
 import Slogan from "../../components/login/Slogan";
 import ForgotRegister from "../../components/login/ForgotRegister";
+import { useNavigate } from 'react-router-dom';
 
 export default function Register() {
+
+    const navigate = useNavigate();
+
     return (<>
         <div>
             <div className="grid grid-cols-2">
@@ -68,7 +72,9 @@ export default function Register() {
                         </div >
 
                         <div className="form-group">
-                            <button className="btn w-100" type="submit">Registarse</button>
+                            <button onClick={
+                            () => navigate("/")
+                    } className="btn w-100" type="submit">Registarse</button>
                         </div>
                     </form>
                 </div>

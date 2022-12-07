@@ -9,9 +9,9 @@ import router from './routes/Router';
 /*
   *Crear Router - DONE
   *Crear Pagina/Componente de Inicio /Home - DONE
-  *Crear Pagina/Componente de Carrito /Cart
+  *Crear Pagina/Componente de Carrito /Cart - DONE
   *Crear Pagina/Componente de Informacion/About
-  *Crear Pagina/Componente de Confirmar Pago/Payment
+  *Crear Pagina/Componente de Confirmar Pago/Payment - DONE
   *Crear Pagina/Componente de Pago Exitoso/Payment
   *Crear Pagina/Componente de Creacion de Bebida/Product
   *Crear Pagina/Componente de Registro de Usuario/user - DONE

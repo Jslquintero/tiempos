@@ -6,7 +6,7 @@
    * @dateUpdate: 
    * @descriptionUpdate: Se cambio el logo del cliente
    * @version: 1.0.1
-   * @param{logo, imagenHorizontalRedesSociales}props
+   * @param
    * @tiempo Me tomo 4 horas tiempo en 1 dias
  */
 

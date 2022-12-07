@@ -20,6 +20,9 @@
 //estilo de la pagina de pagos
 @import "./payment/payment";
 
+//estilo del carrito de compras
+@import "./table/table";
+
 //Seccion contentido
 .content-center {
     align-items: start;
@@ -79,20 +82,34 @@
 }
 
 //Seccion margin y padding input
-.m-1{
+.m-1 {
     margin: 1rem;
 }
 
-.p-1{
+.p-1 {
     padding: 1rem;
 }
 
 //Seccion borde
 
-.border-radius{
+.border-radius {
     border-radius: 2rem;
 }
 
-.border{
+.border {
     border: 1px solid $primaryColor;
+}
+
+//Seccion iconos
+
+.delete-icon {
+    color: rgb(221, 103, 103);
+}
+
+.edit-icon {
+    color: rgb(96, 96, 223);
+}
+
+.add-icon {
+    color: rgb(103, 182, 103);
 }
