@@ -1,13 +1,13 @@
 /**
    * @author: José López
    * @date: 11/30/2022
-   * @description: Pagina de Inicio donde se muestra la informacion principal del cliente
+   * @description: Pagina de productos 
    * @Editor: José López
-   * @dateUpdate: 
-   * @descriptionUpdate: Se cambio el logo del cliente
+   * @dateUpdate: 12/14/2020
+   * @descriptionUpdate: Se agregaron cartas de productos
    * @version: 1.0.2
    * @param
-   * @tiempo Me tomo 4 horas tiempo en 1 dias
+   * @tiempo Me tomo 4 horas y 30 minutos en 3 dias
  */
 
 import React from 'react';
