@@ -3,10 +3,10 @@
    * @date: 12/2/2022
    * @description: Carta de bebidas
    * @Editor: José López
-   * @dateUpdate: 
-   * @descriptionUpdate: 
+   * @dateUpdate: 13/03/2022
+   * @descriptionUpdate: nuevos implementacion de nuevos parametros para el componente
    * @version: 1.0.2
-   * @param{logo, imagenHorizontalRedesSociales}props
+   * @param
    * @tiempo Me tomo  horas tiempo en dias
  */
 
@@ -23,22 +23,46 @@ export default function CardApi(props) {
     const tarjetas = [{
         title: "Titulo 1",
         subtitle: "Subtitulo 1",
-        img: greenJuice
+        img: greenJuice,
+        headerStyle:'grid content-center card card-background',
+        imgStyle:'card-image',
+        bodyStyle:'card content-center',
+        descriptionStyle:'card content-center',
+        titleStyle:'card-title text-center',
+        subtitleStyle:'card-description text-center',
     },
     {
         title: "Titulo 2",
         subtitle: "Subtitulo 2",
-        img: orangeJuice
+        img: orangeJuice,
+        headerStyle:'grid content-center card card-background',
+        imgStyle:'card-image',
+        bodyStyle:'card content-center',
+        descriptionStyle:'card content-center',
+        titleStyle:'card-title text-center',
+        subtitleStyle:'card-description text-center',
     },
     {
         title: "Titulo 3",
         subtitle: "Subtitulo 3",
-        img: strawberryJuice
+        img: strawberryJuice,
+        headerStyle:'grid content-center card card-background',
+        imgStyle:'card-image',
+        bodyStyle:'card content-center',
+        descriptionStyle:'card content-center',
+        titleStyle:'card-title text-center',
+        subtitleStyle:'card-description text-center',
     },
     {
         title: "Titulo 4",
         subtitle: "Subtitulo 4",
-        img: mangoJuice
+        img: mangoJuice,
+        headerStyle:'grid content-center card card-background',
+        imgStyle:'card-image',
+        bodyStyle:'card content-center',
+        descriptionStyle:'card content-center',
+        titleStyle:'card-title text-center',
+        subtitleStyle:'card-description text-center',
     }
 
     ]
@@ -55,6 +79,24 @@ export default function CardApi(props) {
                 }
                 img={
                     tarjeta.img
+                }
+                headerStyle={
+                    tarjeta.headerStyle
+                }
+                imgStyle={
+                    tarjeta.imgStyle
+                }
+                bodyStyle={
+                    tarjeta.bodyStyle
+                }
+                descriptionStyle={
+                    tarjeta.descriptionStyle
+                }
+                titleStyle={
+                    tarjeta.titleStyle
+                }
+                subtitleStyle={
+                    tarjeta.subtitleStyle
                 }
             />
 

@@ -1,0 +1,21 @@
+.product-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 25rem;
+    height: 16rem;
+    margin-bottom: 2rem;
+}
+
+.product-card-image {
+    width: 9rem;
+    height: 9em;
+    margin: 1rem;
+}
+
+.product-card-title {
+    font-size: 1.5rem !important;
+}
+.product-card-subtitle {
+    font-size: 1rem !important;
+}

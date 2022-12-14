@@ -25,7 +25,7 @@ export default function ConfirmPayment() {
     const country = axios.create({ baseURL: apiUrl });
 
     useEffect(() => {
-        //getCountryList();
+        getCountryList();
     });
 
     async function getCountryList() {

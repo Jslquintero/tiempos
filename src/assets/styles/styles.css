@@ -529,7 +529,7 @@ body img {
   display: grid;
 }
 
-.grid-cols-1 {
+.grid-col {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
@@ -578,10 +578,6 @@ body img {
 }
 
 .grid-row {
-  grid-template-rows: repeat(1, 1fr);
-}
-
-.grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
@@ -795,6 +791,29 @@ table tr:nth-child(even) {
 .action {
   color: black;
   padding-left: 20%;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  height: 16rem;
+  margin-bottom: 2rem;
+}
+
+.product-card-image {
+  width: 9rem;
+  height: 9em;
+  margin: 1rem;
+}
+
+.product-card-title {
+  font-size: 1.5rem !important;
+}
+
+.product-card-subtitle {
+  font-size: 1rem !important;
 }
 
 .content-center {

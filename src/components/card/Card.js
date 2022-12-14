@@ -3,11 +3,11 @@
    * @date: 12/2/2022
    * @description: Carta de bebidas
    * @Editor: José López
-   * @dateUpdate: 
-   * @descriptionUpdate: 
-   * @version: 1.0.2
-   * @param{logo, imagenHorizontalRedesSociales}props
-   * @tiempo Me tomo  horas tiempo en dias
+   * @dateUpdate: 12/14/2022
+   * @descriptionUpdate:  nuevos implementacion de nuevos parametros para el componente
+   * @version: 1.0.4
+   * @param{headerStyle, bodyStyle, img, descriptionStyle, title, subtitle, imgStyle}props
+   * @tiempo Me tomo  horas  en dias
  */
 
 import React from "react";
@@ -18,13 +18,13 @@ export default function Card(props) {
 
     return (
         <>
-            <div className="grid content-center card card-background">
-                <div className="card content-center">
-                    <Link to='/' ><img className="card-image" src={props.img} alt="img" /></Link>
+            <div className={props.headerStyle}>
+                <div className={props.bodyStyle}>
+                    <Link to='/' ><img className={props.imgStyle} src={props.img} alt="img" /></Link>
                 </div>
-                <div className="card content-center">
-                    <h1 className="card-title text-center">{props.title}</h1>
-                    <h2 className="card-description text-center">{props.subtitle}</h2>
+                <div className={props.descriptionStyle}>
+                    <h1 className={props.titleStyle}>{props.title}</h1>
+                    <h2 className={props.subtitleStyle}>{props.subtitle}</h2>
                 </div>
             </div>
         </>

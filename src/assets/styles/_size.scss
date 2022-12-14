@@ -505,7 +505,7 @@
 
 //Seccion columnas
 
-.grid-cols-1 {
+.grid-col {
     grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
@@ -556,10 +556,6 @@
 //Seccion filas
 
 .grid-row {
-    grid-template-rows: repeat(1, 1fr);
-}
-
-.grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
