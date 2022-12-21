@@ -69,7 +69,6 @@
     border: none;
     border-radius: 0.4rem;
     border-color: green;
-
     padding: 1rem 2rem;
     font-size: 1.5rem;
     cursor: pointer;
@@ -99,7 +98,7 @@
     border-radius: 2rem;
 }
 
-.border {
+.border { //b
     border: 1px solid $primaryColor;
 }
 
@@ -115,4 +114,9 @@
 
 .add-icon {
     color: rgb(103, 182, 103);
+}
+
+.icon {
+    font-size: 1rem;
+    cursor: pointer;
 }

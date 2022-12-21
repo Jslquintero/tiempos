@@ -545,12 +545,8 @@
     grid-template-columns: repeat(10, 1fr);
 }
 
-.grid-cols-11 {
-    grid-template-columns: repeat(11, 1fr);
-}
-
-.grid-cols-12 {
-    grid-template-columns: repeat(12, 1fr);
+.grid-70-30{
+    grid-template-columns: 60% 1%;
 }
 
 //Seccion filas
@@ -585,4 +581,19 @@
 
 .grid-gap-3 {
     gap: 3rem;
+}
+
+.pa{
+    background-color: aqua;
+}
+.cartas{
+    background-color: red;
+}
+
+.info{
+    background-color: green;
+}
+
+.productos{
+    background-color: yellow;
 }
